@@ -17,10 +17,53 @@ import 'package:animation_kh/animation_kh.dart';
 ```
 
 ## Example
-For example, to create a button with white text, you could use the following code:
+For example, create animation on widget
 
 ```dart
- 
+    /// animation on title or text widget
+    AnimationKh(
+        animationController: animationController,
+        slideDirection: SlideDirection.fromRight,
+        child: Text("Hello world"),
+    ),
+
+    /// animation on icon widget
+    AnimationKh(
+        animationController: animationController,
+        slideDirection: SlideDirection.fromRight,
+        child: Padding(
+        padding: const EdgeInsets.only(right: 12),
+        child: CircleAvatar(
+        backgroundColor: Theme.of(context).colorFF2A2(context),
+        child: IconButton(
+            padding: const EdgeInsets.all(0),
+            onPressed: () {},
+            icon: Icon(Icons.favorite),
+            ),
+          ),
+        ),
+    ),
+```
+
+## Example
+For example, create animation on list
+
+```dart
+      ListView(
+        children: List.generate(
+          10,
+          (index) => AnimationKh(
+              animationController: animationController,
+              position: index,
+              slideDirection: SlideDirection.fromBottom,
+              itemCount: controller.tours.length,
+              child: ListTile(
+                  leading: Icon(Icons.home),
+                  title: Text(index.toString()),
+                  ),
+              ),
+          ),
+      )
 ```
 
 ## LICENSE
