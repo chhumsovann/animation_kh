@@ -1,8 +1,8 @@
 # Animation Kh library
 
-Animation Kh package lets you add a beautiful.
+Animation Kh make your application have animation looking smoothly and beautifully.
 This is a animation library for Flutter that provides animation on widget and list that you can use in your app.
-Animation Kh is opensource library developed by  <a href="https://www.youtube.com/@vann-dev">Vann Dev</a>
+Animation Kh is opensource library developed by <a href="https://www.youtube.com/@vann-dev">Vann Dev</a>
 
 <br>
 
