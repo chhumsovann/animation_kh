@@ -6,7 +6,7 @@ Animation Kh is opensource library developed by <a href="https://www.youtube.com
 
 <br>
 
-![Demo](demo/demo_animation_kh.gif)
+![Demo](lib/demo/demo_animation_kh.gif)
 
 <br>
 
